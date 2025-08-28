@@ -1,7 +1,6 @@
 SET search_path = nyc_taxi, public;
 \timing on
 
--- Optional: refresh precomputed aggregates (non-blocking to readers)
 -- SELECT refresh_all_mvs();
 
 -- Keep the same window as baseline for apples-to-apples where applicable
