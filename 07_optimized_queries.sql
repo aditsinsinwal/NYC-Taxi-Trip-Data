@@ -3,7 +3,7 @@ SET search_path = nyc_taxi, public;
 
 -- SELECT refresh_all_mvs();
 
--- Keep the same window as baseline for apples-to-apples where applicable
+-- Keeping the same window as baseline for apples-to-apples where applicable
 \set start '2023-01-01'
 \set end   '2023-07-01'
 
